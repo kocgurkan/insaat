@@ -9,7 +9,8 @@
 <body>
   <header id="home">
     <div class="container">
-      <h1>İnşaat ve Tamir Hizmetleri</h1>
+      <h1>YAPILARIMIZ GELECEĞİ İNŞA EDER</h1>
+      <p>İnşaatın Uzmanı, Hayatın Mimarı, İşinin Ehl-i</p>
       <nav>
         <ul>
           <li><a href="#home">Ana Sayfa</a></li>
@@ -26,17 +27,46 @@
   <section id="services">
     <div class="container">
       <h2>Hizmetlerimiz</h2>
+      
       <div class="service">
-        <h3>İnşaat Hizmetleri</h3>
-        <p>Temelden çatıya kadar her türlü inşaat işleriniz için yanınızdayız.</p>
+        <h3>Endüstriyel Zemin Uygulamaları</h3>
+        <p>
+          Endüstriyel zemin kaplama, sanayi tesislerinin işlevselliği düşünülerek yapılan, son derece dayanıklı kaplama türüdür. 
+          Endüstri bölgelerinin ağır iş sanayisi hizmeti verdikleri düşünülürse, tüm malzemeler sağlam ve güçlü olmalıdır.
+        </p>
+        <p>
+          Endüstriyel zemin kaplama sadece sanayi bölgelerinde değil, geniş iş alanlarında da kullanılmaktadır. Örneğin AVM’lerde, hava alanlarında, lojistik merkezleri ve depolarda tercih edilmektedir.
+        </p>
+        <p>
+          Aşınmalar, darbeler, ufak iş kazaları ve diğer etkenler zemine zarar vermemelidir. Ancak bu şekilde tam bir koruma sağlanabilir. İşlenen sanayinin türüne göre, zeminlerin son derece uyumlu olması can güvenliği açısından önemlidir.
+        </p>
       </div>
+
       <div class="service">
-        <h3>Boyama ve Dekorasyon</h3>
-        <p>İç ve dış mekanlar için profesyonel boyama ve dekorasyon hizmetleri.</p>
+        <h3>Baskı Beton ve Diğer Beton Çözümleri</h3>
+        <ul>
+          <li>Baskı Beton Uygulamaları</li>
+          <li>Endüstriyel Hazır Beton</li>
+          <li>Beton Silim-Parlatma</li>
+          <li>Self Leveling</li>
+          <li>Stone Carpet (Doğal Taş)</li>
+        </ul>
+        <p>
+          Bazı sektörlerde beton zemin uygun olurken, bazılarında Epoksi kaplama tercih edilmektedir. Uygulama alanına göre farklı çözümler sunuyoruz.
+        </p>
       </div>
+
       <div class="service">
-        <h3>Elektrik ve Su Tesisatı</h3>
-        <p>Onarım, bakım ve kurulum hizmetleri.</p>
+        <h3>Zemin Kaplama Çözümleri</h3>
+        <ul>
+          <li>Akrilik Zemin Kaplama</li>
+          <li>Poliüretan Zemin Kaplamaları</li>
+          <li>Epoksi Zemin Kaplamaları</li>
+          <li>Polürea Zemin Kaplamaları</li>
+        </ul>
+        <p>
+          Epoksi zeminin kullanıldığı alanlar farklı olurken, akrilik zeminin istendiği yerler değişik olmaktadır. Doğru malzeme ve doğru uygulama için uzman ekibimizle hizmet vermekteyiz.
+        </p>
       </div>
     </div>
   </section>
@@ -97,5 +127,15 @@
       <p>&copy; 2025 İnşaat ve Tamir Hizmetleri. Tüm hakları saklıdır.</p>
     </div>
   </footer>
+  <script>
+    function scrollToContact() {
+      document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    }
+    
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Mesajınız gönderildi! En kısa sürede size dönüş yapacağız.");
+    });
+  </script>
 </body>
 </html>
