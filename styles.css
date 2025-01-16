@@ -7,26 +7,14 @@ body {
 }
 
 header {
-  background: #0073e6;
-  color: #fff;
-  padding: 10px 0;
   text-align: center;
-}
-
-header h1 {
-  margin: 0;
-}
-
-header img {
-  width: 100%;  /* GIF'in genişliğini tam olarak almasını sağlar */
-  max-height: 400px;  /* Yüksekliği sınırlamak için */
-  object-fit: cover;  /* GIF'in orantısını koruyarak kesilmesini engeller */
-  margin-top: 20px;  /* Başlık ile GIF arasına boşluk ekler */
 }
 
 header nav ul {
   list-style: none;
   padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 header nav ul li {
@@ -35,8 +23,16 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #0073e6;
   text-decoration: none;
+  font-size: 18px;
+}
+
+.header-gif {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-top: 20px;
 }
 
 .container {
