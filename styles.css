@@ -30,8 +30,8 @@ header nav ul li a {
 
 .header-gif {
   width: 100%;
-  height: 1000%; /* Yükseklik orantılı olacak şekilde ayarlandı */
-  object-fit: contain; /* GIF'in tüm genişliği kaplaması için */
+  max-height: 400px;
+  object-fit: cover;
   margin-top: 20px;
 }
 
