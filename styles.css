@@ -29,9 +29,9 @@ header nav ul li a {
 }
 
 .header-gif {
-  width: 50%;
-  max-height: 200px;
-  object-fit: cover;
+  width: 100%;
+  height: auto; /* Yükseklik orantılı olacak şekilde ayarlandı */
+  object-fit: contain; /* GIF'in tüm genişliği kaplaması için */
   margin-top: 20px;
 }
 
