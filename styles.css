@@ -17,6 +17,13 @@ header h1 {
   margin: 0;
 }
 
+header img {
+  width: 100%;  /* GIF'in genişliğini tam olarak almasını sağlar */
+  max-height: 400px;  /* Yüksekliği sınırlamak için */
+  object-fit: cover;  /* GIF'in orantısını koruyarak kesilmesini engeller */
+  margin-top: 20px;  /* Başlık ile GIF arasına boşluk ekler */
+}
+
 header nav ul {
   list-style: none;
   padding: 0;
